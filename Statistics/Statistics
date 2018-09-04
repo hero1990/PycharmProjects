@@ -1,0 +1,52 @@
+
+# 三个硬币： 1角，2角，5角。 同时掷硬币，正面朝上的将面值加在一起求和。 只有两个硬币正面朝上的期望和是多少？　
+
+import sympy as S
+
+X10, X20, X50 = S.symbols("X10,X20,X50", real=True)
+xi = 10*X10+20*X20+50*X50
+print("ξ = ", xi)
+eta = X10*X20*(1-X50)+X10*(1-X20)*X50+(1-X10)*X20*X50
+print("η = ", eta)
+
+num = S.summation(xi*eta, (X10, 0, 1), (X20, 0, 1), (X50, 0, 1))
+den = S.summation(eta*eta, (X10, 0, 1), (X20, 0, 1), (X50, 0, 1))
+alpha = num/den
+
+print(alpha)
+
+import pandas as pd
+import numpy as np
+
+d = pd.DataFrame(columns=['X10', 'X20', 'X50'])
+ntest = 10**6
+d.X10 = np.random.randint(0, 2, ntest)
+d.X10 = np.random.randint(0, 2, ntest)
+d.X20 = np.random.randint(0, 2, ntest)
+d.X50 = np.random.randint(0, 2, ntest)
+
+grp = d.groupby(d.eval('X10+X20+X50'))
+result = grp.get_group(2).eval('10*X10+20*X20+50*X50').mean()
+print(result)
+
+
+from numpy import array
+ntest = 10**6
+x = np.random.randint(0, 2, (3, ntest))
+expectation = np.dot(x[:, x.sum(axis=0) == 2].T, array([10, 20, 50])).mean()
+print(expectation)
+
+
+import itertools as it
+Xi = list(it.product((0, 1), (0, 1), (0, 1)))
+
+Xi_conditioned = list(it.filterfalse(lambda i:sum(i)!=2, Xi))
+
+results = list((map(lambda k:10*k[0]+20*k[1]+50*k[2],Xi_conditioned)))
+dem = len(results)
+num = sum(results)
+
+print(Xi)
+print(Xi_conditioned)
+print(results)
+print(num/dem)

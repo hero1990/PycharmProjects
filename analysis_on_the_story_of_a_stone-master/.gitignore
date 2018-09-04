@@ -1,0 +1,8 @@
+*.txt
+*.csv
+.idea/*
+__pycache__/*
+html/*
+!hlm.txt
+!hlm_ANSI.txt
+

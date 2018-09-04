@@ -1,0 +1,24 @@
+import sys
+from PIL import Image
+import io
+
+if sys.version_info[0] < 3:
+    import urllib2 as urllib
+    bt_img = urllib.urlopen("http://logok.org/wp-content/uploads/2016/10/Bitcoin-Logo-640x480.png")
+    eth_img = urllib.urlopen("https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Ethereum_logo_2014.svg/256px-Ethereum_logo_2014.svg.png")
+else:
+    import urllib.request
+    bt_img = urllib.request.urlopen("http://logok.org/wp-content/uploads/2016/10/Bitcoin-Logo-640x480.png")
+    eth_img = urllib.request.urlopen("https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Ethereum_logo_2014.svg/256px-Ethereum_logo_2014.svg.png")
+
+image_file = io.BytesIO(bt_img.read())
+bitcoin_im = Image.open(image_file)
+
+image_file = io.BytesIO(eth_img.read())
+eth_im = Image.open(image_file)
+width_eth_im , height_eth_im  = eth_im.size
+eth_im = eth_im.resize((int(eth_im.size[0]*0.8), int(eth_im.size[1]*0.8)), Image.ANTIALIAS)
+
+bitcoin_market_info.columns =[bitcoin_market_info.columns[0]]+['bt_'+i for i in bitcoin_market_info.columns[1:]]
+eth_market_info.columns =[eth_market_info.columns[0]]+['eth_'+i for i in eth_market_info.columns[1:]]
+

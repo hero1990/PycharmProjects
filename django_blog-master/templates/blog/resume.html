@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="zh">
+{% load static %}
+
+<head>
+    <!-- META -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="{% static 'img/icon.png' %}" />
+    <title>Ehco'Resume - 后端开发</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css">
+    <style>
+        #highlight {
+            color: lightcoral;
+            font-weight: bold;
+        }
+
+        body {
+            border: solid 2px;
+            color: gray;
+            margin-left: 30px;
+            margin-right: 30px;
+            box-shadow: 0 0 20px rgba(26, 26, 78, 0.8);
+        }
+    </style>
+</head>
+
+<body>
+    <section class="hero is-info is-samll">
+        <div class="hero-body" id="id-header">
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-5">
+                        <div class="box">
+                            <div class="media">
+                                <div class="media-left">
+                                    <figure class="image is-96x96">
+                                        <img src="{% static 'img/headimg.png' %}">
+                                    </figure>
+                                </div>
+                                <div class="media-content">
+                                    <p>联系方式: </p>
+                                    <ul class="head-info">
+                                        <li>
+                                            <span class="icon">
+                                                <i class="fa fa-envelope-o"></i>
+                                            </span>
+                                            <span>
+                                                <strong>zh19960202@gmail.com</strong>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span class="icon">
+                                                <i class="fa fa-phone"></i>
+                                            </span>
+                                            <span>
+                                                <strong>1xxxxxxx</strong>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span class="icon">
+                                                <i class="fa fa-github"></i>
+                                            </span>
+                                            <span>
+                                                <strong>
+                                                    <a href="https://github.com/Ehco1996">Ehco1996</a>
+                                                </strong>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span class="icon">
+                                                <i class="fa fa-quora"></i>
+                                            </span>
+                                            <span>
+                                                <strong>
+                                                    <a href="https://www.zhihu.com/people/Ehcostuff/activities">Ehco</a>
+                                                </strong>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-offset-3">
+                        <div class="notification is-link">
+                            <p class="title is-1">Ehco</p>
+                            <p>爬墙的少年</p>
+                            <p class="subtitle is-4">Python/后端/开发</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="hero is-light is-fullheight">
+        <div class="container">
+            <br>
+            <div class="columns">
+                <div class="column">
+                    <div class="box message">
+                        <span class="tag is-link is-large">个人声誉</span>
+                        <hr>
+                        <article class="message">
+                            <div class="message-header">
+                                <p>个人微信订阅号:翻山越岭breakwall</p>
+                                <p>2016-11 - 至今</p>
+                            </div>
+                            <div class="message-body">
+                                <ul>
+                                    <li>主要分享和
+                                        <strong>科技/生活相关的信息</strong>
+                                    </li>
+                                    <li>采用独立开发的后台系统</li>
+                                    <li>
+                                        <span id="highlight">3K+</span>订阅,平均每篇文章
+                                        <span id="highlight">500+阅读量</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </article>
+                        <article class="message">
+                            <div class="message-header">
+                                <a href="https://zhuanlan.zhihu.com/Ehco-python">知乎专栏：从零开始写Python爬虫</a>
+                                <p>2017-05 - 至今</p>
+                            </div>
+                            <div class="message-body">
+                                <ul>
+                                    <li>
+                                        目前有
+                                        <span id="highlight">3.5K+ </span>订阅
+                                    </li>
+                                    <li>热门文章:</li>
+                                    <li>
+                                        <a class="link" href="https://zhuanlan.zhihu.com/p/28537306">
+                                            <strong>获取
+                                                <span id="highlight">支付宝</span>账单信息</strong>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="link" href="https://zhuanlan.zhihu.com/p/27969976">
+                                            <strong>
+                                                <span id="highlight">12306</span>火车票信息查询</strong>
+                                        </a>
+                                    </li>
+                                    <li>
+
+                                    </li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="box message">
+                        <span class="tag is-link is-large">项目经验</span>
+                        <hr>
+                        <article class="message">
+                            <div class="message-header">
+                                <p>django-blog</p>
+                                <p>2017-04 - 2017-06</p>
+                            </div>
+                            <div class="message-body">
+                                <ul>
+                                    <li>
+                                        <span class="tag is-info is-medium">个人博客系统</span>
+                                    </li>
+                                    <li>
+                                        具有完善的
+                                        <span id="highlight">评论/后台/编辑</span>系统
+                                    </li>
+                                    <li>
+                                        支持
+                                        <span id="highlight">Markdwon</span>格式的内容编辑
+                                    </li>
+                                    <li>
+                                        使用
+                                        <span id="highlight">haystack</span>全文搜索与关键字高亮
+                                    </li>
+                                    <li>
+                                        使用
+                                        <span id="highlight">Autoc.js</span>实现文章动态目录
+                                    </li>
+                                    <li>
+                                        <span>前端:
+                                            <span id="highlight">Bootstrap</span> 后端:
+                                            <span id="highlight">Django1.1</span>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <a class="link" href="http://www.ehcoblog.ml/">
+                                            <strong>博客地址</strong>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="link" href="https://github.com/Ehco1996/django_blog">
+                                            <strong>项目地址</strong>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </article>
+                        <article class="message">
+                            <div class="message-header">
+                                <p>微信订阅号后台系统</p>
+                                <p>2017-06 - 至今</p>
+                            </div>
+                            <div class="message-body">
+                                <ul>
+                                    <li>
+                                        <span class="tag is-info is-medium">微信订阅号后台</span>
+                                    </li>
+                                    <li>
+                                        支持
+                                        <span id="highlight">关键词</span>自动回复
+                                    </li>
+                                    <li>
+                                        动态抓取
+                                        <span id="highlight">糗事百科</span>笑话返回
+                                    </li>
+                                    <li>
+                                        动态抓取
+                                        <span id="highlight">Google图片</span>返回
+                                    </li>
+                                    <li>
+                                        随机抓取并返回
+                                        <span id="highlight">美食节菜谱</span>
+                                    </li>
+                                    <li>
+                                        <span id="highlight">12306</span>火车票查询系统
+                                    </li>
+                                    <li>用
+                                        <span id="highlight">Django</span>对接微信开发平台
+                                    </li>
+                                </ul>
+                            </div>
+                        </article>
+                        <article class="message">
+                            <div class="message-header">
+                                <p>django-sspanl (谜之屋)</p>
+                                <p>2017-08 - 至今</p>
+                            </div>
+                            <div class="message-body">
+                                <ul>
+                                    <li>
+                                        <span class="tag is-info is-medium">网络账号分享/多人管理系统</span>
+                                    </li>
+                                    <li>
+                                        轻量级Css框架
+                                        <span id="highlight">Bulma</span>
+                                    </li>
+                                    <li>
+                                        后台由
+                                        <span id="highlight">Django</span>强力驱动
+                                    </li>
+                                    <li>
+                                        使用
+                                        <span id="highlight">Mysql</span>作为数据库
+                                    </li>
+                                    <li>
+                                        详细的安装
+                                        <span id="highlight">文档于Wiki</span>
+                                    </li>
+                                    <li>
+                                        使用
+                                        <span id="highlight">HTTPS/SSL证书</span>保证用户信息安全
+                                    </li>
+
+                                    <li>
+                                        <span>接入
+                                            <strong id="highlight">支付宝当面付</strong>插件，支持在线付款
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>配套使用的
+                                            <strong id="highlight">Telegram Bot 机器人</strong>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>使用
+                                            <strong id="highlight">Ajax技术</strong>异步请求，减少服务器压力
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>完善的
+                                            <strong id="highlight">用户权限</strong>管理
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>实现注册/邀请/计费/充值/后台/用户管理</span>等功能
+                                    </li>
+                                    <li>
+                                        <a href="https://www.ehcozone.ml/">
+                                            <strong>demo地址</strong>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/Ehco1996/django-sspanel">
+                                            <strong> 项目地址</strong>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="box message">
+                        <span class="tag is-link is-large">教育经历</span>
+                        <hr>
+                        <article class="message">
+                            <div class="message-header">
+                                <p>苏州科技大学 (社会保障专业)</p>
+                                <p>2014 - 2018</p>
+                            </div>
+                            <div class="message-body">
+                                <ul>
+                                    <li>自学编程
+                                        <strong id="highlight">Python/Js/Java</strong>
+                                    </li>
+                                    <li>
+                                        <strong id="highlight">CET - 4/6 证书</strong>
+                                    </li>
+                                    <li>
+                                        <strong>能无障碍使用英文开发文档</strong>
+                                    </li>
+                                </ul>
+                            </div>
+                        </article>
+                        <article class="message">
+                            <div class="message-header">
+                                <p>中国大学MOOC</p>
+                                <p>2017 - 年中</p>
+                            </div>
+                            <div class="message-body">
+                                <ul>
+                                    <li>北京理工大学：Python语言程序设计</li>
+                                    <li>北京理工大学：Python网络爬虫与信息提取</li>
+                                    <li>南京大学：用Python玩转数据</li>
+                                    <li>浙江大学：面向对象程序设计--Java语言</li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="box message">
+                        <span class="tag is-link is-large">技术栈</span>
+                        <hr>
+                        <article class="message">
+                            <div class="message-header">
+                                <p>Web后端</p>
+                            </div>
+                            <div class="message-body">
+                                <span class="tag is-info is-medium">Python/爬虫/算法</span>
+                                <p>了解Python
+                                    <span id="highlight">面向对象/列表推导</span>等高级用法</p>
+                                <p>熟练使用
+                                    <span id="highlight">Requests</span>模块编写爬虫</p>
+                                <p>基本掌握
+                                    <span id="highlight">Scrapy</span>爬虫框架的使用</p>
+                                <p>
+                                    <span id="highlight">反爬虫</span>的基本对策</p>
+                                <span class="tag is-info is-medium">MVC开发框架</span>
+                                <p>
+                                    <span id="highlight">RESTful API </span>设计</p>
+                                <p>熟练使用
+                                    <span id="highlight">Django</span>作为web后端开发框架</p>
+                                <p>了解
+                                    <span id="highlight">Flask</span>框架，并尝试阅读源码</p>
+                                <span class="tag is-info is-medium">SQL/数据库</span>
+                                <p>能书写基本的SQL语句 增删改查</p>
+                                <p>熟练掌握
+                                    <span id="highlight">Mysql</span>的基本使用</p>
+                                <p>熟练使用django
+                                    <span id="highlight">ORM</span>来管理数据</p>
+                                <p>利用
+                                    <span id="highlight">MongoDB</span>开发过爬虫爬取10w+数据</p>
+                            </div>
+                        </article>
+                        <article class="message">
+                            <div class="message-header">
+                                <p>Web前端</p>
+                            </div>
+                            <div class="message-body">
+                                <span class="tag is-info is-medium">HTML/CSS</span>
+                                <p>了解
+                                    <span id="highlight">HTML5/CSS3 </span>并能熟练使用部分新特性</p>
+                                <p>使用常见框架Bootstrap/Bulma
+                                    <span id="highlight">编写响应式/移动端网页</span>
+                                </p>
+                                <span class="tag is-info is-medium">ECMAScript（JavaScript）</span>
+                                <p>熟悉 JavaScript基本语法，
+                                    <span id="highlight">代码编写遵守规范</span>
+                                </p>
+                                <p>能使用常见的第三方Js库如:
+                                    <span id="highlight">Jquery/Vue.js</span>
+                                </p>
+                                <p>了解并使用
+                                    <span id="highlight">Ajax技术</span>动态请求后端数据</p>
+                            </div>
+                        </article>
+                        <article class="message">
+                            <div class="message-header">
+                                <p>工具/其他</p>
+                            </div>
+                            <div class="message-body">
+                                <p>
+                                    <span id="highlight">两年</span>使用linux经验</p>
+                                <p>了解
+                                    <span id="highlight">HTTP相关</span>常见知识</p>
+                                <p>持续
+                                    <span id="highlight">200+</span>天坚持commit
+                                </p>
+                                <p>熟练使用
+                                    <span id="highlight">Git/Github</span>等版本管理工具</p>
+                                <p>经常去
+                                    <span id="highlight">LeetCode</span>做一些算法题来锻炼思维</p>
+                                <p>参与过
+                                    <span id="highlight">Bulma/python-alipay-sdk</span>等开源项目</p>
+                                <p>科学上网，擅用
+                                    <span id="highlight">Google/stack overflow</span>检索资料</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="content has-text-centered">
+                <p>
+                    Ehco's Resume
+                    <strong>Powered by</strong>
+                    <a href="https://github.com/Ehco1996">Ehco1996</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+{% extends 'blog/detailbase.html' %} {% block main %}
+<article class="post post-1">
+	<header class="entry-header">
+		<h1 class="entry-title">
+			{{ post.title }}
+		</h1>
+		<div class="entry-meta">
+			<span class="post-category">
+				<a href="#">{{ post.category.name }} </a>
+			</span>
+			<span class="post-date">
+				<a href="#">
+					<time class="entry-date" datetime="{{ post.created_time }}">{{ post.created_time }} </time>
+				</a>
+			</span>
+			<span class="post-author">
+				<a href="#">{{ post.author }} </a>
+			</span>
+			<span class="comments-link">
+				<a href="#"> read: {{ post.count }}</a>
+			</span>
+		</div>
+	</header>
+
+	<div class="entry-content clearfix ">
+		<div class="head-img img-responsive">
+			<br>
+			<img class='img-thumbnail' src="{{ post.headimage.url }}" alt='文章配图' width="500" height="300">
+		</div>
+		<br>
+
+		<div class='jupe' id='needtoc'>
+			{{ post.body|safe }}
+		</div>
+	</div>
+</article>
+<ul class="上下文关联">
+	<li>
+		<a href="{{ pre_post.get_absolute_url }}">
+			<strong>上一篇 ：{{ pre_post.title }}</strong>
+		</a>
+	</li>
+	<li>
+		<a href="{{ next_post.get_absolute_url }}">
+			<strong> 下一篇 ：{{ next_post.title }} </strong>
+		</a>
+	</li>
+</ul>
+<section class="comment-area" id="comment-area">
+	<hr>
+	<h3>发表评论</h3>
+
+	<form action="{% url 'comments:post_comment' post.pk %}" method="post" class="comment-form">
+		{% csrf_token %}
+		<div class="row">
+			<div class="col-md-4">
+				<label for="{{ form.name.id_for_label }}">名字：</label> {{ form.name }} {{ form.name.errors }}
+			</div>
+			<div class="col-md-4">
+				<label for="{{ form.email.id_for_label }}">邮箱：</label> {{ form.email }} {{ form.email.errors }}
+			</div>
+			<div class="col-md-4">
+				<label for="{{ form.url.id_for_label }}">URL：(可不填)</label> {{ form.url }} {{ form.url.errors }}
+			</div>
+			<div class="col-md-12">
+				<label for="{{ form.text.id_for_label }}">评论：</label> {{ form.text }} {{ form.text.errors }}
+				<button type="submit" class="btn btn-info">发表</button>
+			</div>
+			<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+		</div>
+		<!-- row -->
+	</form>
+	<br>
+	<hr/>
+	<div class="comment-list-panel">
+		<h4>评论列表:</h4>
+		<ul class="comment-list">
+			{% for comment in comment_list %}
+			<li class="comment-item">
+				<span class="nickname">
+					<strong>{{ comment.name }}</strong>
+				</span>
+				<div class="comment-text">
+					{{ comment.text }}
+				</div>
+				<time class="submit-date" datetime="{{ comment.created_time }}">{{ comment.created_time }}</time> - - -
+				<a class="lead" href="{% url 'comments:comment_reply' post.pk comment.pk %}">回复</a>
+			</li>
+			{% for child in child_comment %} {% if child.parent == comment.pk %}
+			<li class="child-comment">
+				<span class="nickname">
+					<strong>{{ child.name }} → {{ comment.name }}</strong>
+				</span>
+				<div class="comment-text">
+					{{ child.text }}
+				</div>
+				<time class="submit-date" datetime="{{ comment.created_time }}">{{ child.created_time }}</time> - - -
+				<a class="lead" href="{% url 'comments:comment_reply' post.pk comment.pk %}">回复</a>
+			</li>
+			{% endif %} {% endfor %} {% empty %} 暂无评论 {% endfor %}
+		</ul>
+	</div>
+</section>
+
+{% endblock main%}

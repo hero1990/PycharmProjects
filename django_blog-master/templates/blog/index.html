@@ -1,0 +1,98 @@
+{% extends 'base.html' %} {% load blog_tags %}{% block main %}
+
+
+
+<div class="row po1st-recomment hidden-xs">
+    <h3> 推荐阅读: </h3>
+    {% get_recommend_posts as recommend_list %} {% for recommend in recommend_list %}
+    <div class="col-md-4" style="overflow:auto; height:300px">
+        <div class="thumbnail">
+            <img alt="文章配图" src="{{ recommend.headimage.url }}" />
+            <div class="caption">
+                <h6>
+                    <strong> {{ recommend.title}}</strong>
+                </h6>
+                <p>
+                    {{ recommend.excerpt|truncatechars:25 }}
+                </p>
+                <p>
+                    <a class="btn btn-info" href="{{ recommend.get_absolute_url }}">Look</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    {% empty %}
+    <p> 暂时还没有推荐的文章 </p>
+    {% endfor %}
+</div>
+{% for contact in contacts %}
+<article class="post-index">
+    <header class="entry-header">
+        <h1 class="entry-title">
+            <a href="{{ contact.get_absolute_url }}">{{ contact.title }}</a>
+        </h1>
+        <div class="entry-meta">
+            <span class="post-category"><a href="#">{{ contact.category.name }} </a></span>
+
+            <span class="post-date">
+      <a href="#">
+        <time class="entry-date" datetime="{{ post.created_time }}">{{ contact.created_time }} </time>
+      </a>
+    </span>
+
+            <span class="post-author"><a href="#">{{ contact.author }} </a></span>
+
+            <span class="comments-link"><a href="#"> read: {{ contact.count }}</a></span>
+
+        </div>
+    </header>
+
+    <div class="entry-content clearfix">
+        <div class="read-more cl-effect-14">
+
+            <p class="text-center lead"> {{ contact.excerpt }} </p>
+
+            <a href="{{ contact.get_absolute_url }}" class="more-link">继续阅读 <span class="meta-nav">→</span></a>
+
+        </div>
+    </div>
+</article>
+{% empty %}
+<div class="no-post"> 暂时还没有发布文章！</div>
+{% endfor%} 
+
+{% comment %}
+导航页面
+{% endcomment %}
+{% if is_paginated %}
+<aside class="pagination">
+    <ul>
+        {% if first %}
+        <li><a href="?page=1">1</a></li>
+        {% endif %} 
+        
+        {% if left %} 
+            {% if left_has_more %}
+                <li><span>...</span></li>
+            {% endif %} 
+            {% for i in left %}
+                <li><a href="?page={{ i }}">{{ i }}</a></li>
+            {% endfor %} 
+        {% endif %}
+        <li class="current"><a href="?page={{ page_obj.number }}">{{ page_obj.number }}</a></li>
+        {% if right %} 
+            {% for i in right %}
+                <li><a href="?page={{ i }}">{{ i }}</a></li>
+            {% endfor %} 
+            {% if right_has_more %}
+                <li><span>...</span></li>
+            {% endif %} 
+        {% endif %} 
+        {% if last %}
+        <li><a href="?page={{ paginator.num_pages }}">{{ paginator.num_pages }}</a></li>
+        {% endif %}
+    </ul>
+</aside>
+{% endif %} 
+
+{% endblock main %}
