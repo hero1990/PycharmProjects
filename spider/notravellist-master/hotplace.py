@@ -138,9 +138,9 @@ def datatojson(sightlist):  #直接生成json数据
 # 		f.write(ejsonlist2)
 
 def main():
-	sightlist,place = getList()
-	listToExcel(sightlist,place)
-	datatojson(sightlist)
+    sightlist,place = getList()
+    listToExcel(sightlist,place)
+    datatojson(sightlist)
 	# getBaiduGeo(sightlist,place)
 
 if __name__=='__main__':
