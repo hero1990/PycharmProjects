@@ -68,8 +68,8 @@ def create_email(me, mailto_list, email_subject, email_text, file_path, file_nam
 
 def main():
     mailto_list = ["jack-sj.chen@dbschenker.com"]
-    mail_host = "10.209.129.122"
-    mail_user = "Schenker_wms@dbschenker.com"
+    mail_host = "smtp.163.com"
+    mail_user = "hero403194754@163.com"
     mail_pwd = "hero19901001"
     mail_from = mail_user
     print(datetime.datetime.now())
@@ -90,7 +90,7 @@ def main():
     try:
         s = smtplib.SMTP(mail_host,25)
         #s.connect(mail_host)  # 连接smtp服务器
-        #s.login(mail_user, mail_pwd)  # 登陆服务器
+        s.login(mail_user, mail_pwd)  # 登陆服务器
         msg = create_email(mail_from, mailto_list, email_subject, email_text, file_path, file_name)
         s.sendmail(mail_from, mailto_list, msg.as_string())  # 发送邮件
         s.close()
