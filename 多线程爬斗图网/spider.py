@@ -47,7 +47,7 @@ def save_img(img_url):
     else:
         print (u'正在下载' + 'http:' + img_url)
         img_content = requests.get('http:'+img_url).content
-    with open('G:\doutu\%s.jpg' % img_url.split('/')[-1],'wb') as f:    #  %s 传入参数
+    with open('C:\doutu\%s.jpg' % img_url.split('/')[-1],'wb') as f:    #  %s 传入参数
         f.write(img_content)
 
 
