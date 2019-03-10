@@ -1,0 +1,5 @@
+2018-09-04 23:05:14,595 - INFO: File: $R26VOEQ.sql successfully
+2018-09-04 23:05:15,187 - INFO: File:SLI_EXPORT_856O.sql Error,please check
+2018-09-04 23:05:15,187 - INFO: (208, b"Invalid object name 'dbo.SLI_EXPORT_856O'.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+2018-09-04 23:05:15,520 - INFO: File:SLI_EXPORT_940B.sql Error,please check
+2018-09-04 23:05:15,521 - INFO: (208, b"Invalid object name 'dbo.SLI_EXPORT_940B'.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n")
