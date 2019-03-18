@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import Circle
 
 # 投点次数
-n = 100
+n = 1000000000
 
 # 圆的信息
 r = 1.0         # 半径
