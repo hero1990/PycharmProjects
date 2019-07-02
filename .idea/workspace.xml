@@ -2,12 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9e1d1b4-8e8e-49b0-b48a-412fe693bbe6" name="Default" comment="test">
-      <change afterPath="$PROJECT_DIR$/MonteCarlo/用Python预测你的花呗可以用到什么时候/代码1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MonteCarlo/用Python预测你的花呗可以用到什么时候/代码2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PycharmProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PycharmProjects.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/用Python爬取金融市场数据/信托在售爬取.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/网易云音乐/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/网易云音乐/music_collection_TOP10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/网易云音乐/music_collection_hist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/网易云音乐/music_comment_TOP10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/网易云音乐/music_detail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/网易云音乐/music_index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/网易云音乐/music_play_TOP10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/网易云音乐/music_play_hist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/网易云音乐/music_song_TOP10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/网易云音乐/music_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/网易云音乐/music_user_TOP10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/网易云音乐/music_wordcloud.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/网易云音乐/网易云音乐.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider/网易云音乐/网易云音乐2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MonteCarlo/MC_PI.py" beforeDir="false" afterPath="$PROJECT_DIR$/MonteCarlo/MC_PI.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,15 +29,17 @@
     <SUITE FILE_PATH="coverage/PycharmProjects$mail.coverage" NAME="mail Coverage Results" MODIFIED="1536118301149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail" />
     <SUITE FILE_PATH="coverage/PycharmProjects$excel.coverage" NAME="excel Coverage Results" MODIFIED="1517468462186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/excel" />
     <SUITE FILE_PATH="coverage/PycharmProjects$RPC.coverage" NAME="RPC Coverage Results" MODIFIED="1517472791930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/excel" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$2.coverage" NAME="网易云音乐2 Coverage Results" MODIFIED="1552921314818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider/网易云音乐" />
     <SUITE FILE_PATH="coverage/PycharmProjects$configration.coverage" NAME="configration Coverage Results" MODIFIED="1533877069582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/excel" />
     <SUITE FILE_PATH="coverage/PycharmProjects$weibo.coverage" NAME="weibo Coverage Results" MODIFIED="1535975344423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider/weibo" />
     <SUITE FILE_PATH="coverage/PycharmProjects$ODM2TXT.coverage" NAME="ODM2TXT Coverage Results" MODIFIED="1519626272080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/excel" />
     <SUITE FILE_PATH="coverage/PycharmProjects$Scatter_plot_with_linear_regression_line_of_best_fit.coverage" NAME="Scatter_plot_with_linear_regression_line_of_best_fit Coverage Results" MODIFIED="1552912729297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/top-50-matplotlib-visualizations" />
     <SUITE FILE_PATH="coverage/PycharmProjects$Scatter_Plot.coverage" NAME="Scatter_Plot Coverage Results" MODIFIED="1551789819794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/top-50-matplotlib-visualizations" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$.coverage" NAME="模拟题 Coverage Results" MODIFIED="1549023550247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider/同等学力" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$.coverage" NAME="信托在售爬取 Coverage Results" MODIFIED="1552998893163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider/用Python爬取金融市场数据" />
     <SUITE FILE_PATH="coverage/PycharmProjects$12.coverage" NAME="12 Coverage Results" MODIFIED="1536203508948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail" />
     <SUITE FILE_PATH="coverage/PycharmProjects$aiohttp.coverage" NAME="aiohttp Coverage Results" MODIFIED="1520312235902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aiohttp" />
     <SUITE FILE_PATH="coverage/PycharmProjects$top_50_matplotlib_visualizations.coverage" NAME="top-50-matplotlib-visualizations Coverage Results" MODIFIED="1551789782622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/top-50-matplotlib-visualizations" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$music_collection_hist.coverage" NAME="music_collection_hist Coverage Results" MODIFIED="1552921404196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider/网易云音乐" />
     <SUITE FILE_PATH="coverage/PycharmProjects$pivot_table.coverage" NAME="pivot_table Coverage Results" MODIFIED="1514950289431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pivot_table" />
     <SUITE FILE_PATH="coverage/PycharmProjects$MC_PI.coverage" NAME="MC_PI Coverage Results" MODIFIED="1552914771372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MonteCarlo" />
     <SUITE FILE_PATH="coverage/PycharmProjects$analysis.coverage" NAME="analysis Coverage Results" MODIFIED="1535978612087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider/weibo" />
@@ -50,36 +62,50 @@
     <SUITE FILE_PATH="coverage/PycharmProjects$excel2.coverage" NAME="excel2 Coverage Results" MODIFIED="1519814487541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/excel" />
     <SUITE FILE_PATH="coverage/PycharmProjects$subplots_demo.coverage" NAME="subplots_demo Coverage Results" MODIFIED="1515038443488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MonteCarlo/用Python预测你的花呗可以用到什么时候/代码1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MonteCarlo/MC_PI.py">
+        <entry file="file://$PROJECT_DIR$/spider/JOB-master/lagou_job.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+            <state relative-caret-position="95">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MonteCarlo/用Python预测你的花呗可以用到什么时候/代码2.py">
+        <entry file="file://$PROJECT_DIR$/spider/JOB-master/job_salary_education_lagou.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state>
+              <caret column="14" selection-start-column="5" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider/JOB-master/job_salary_education_boss.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
               <folding>
-                <element signature="e#25#43#0" expanded="true" />
+                <element signature="e#0#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,6 +128,7 @@
       <find>cards</find>
       <find>card_group</find>
       <find>\\u8fbd\</find>
+      <find>夜河路人/playlist?id=2682446858</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -142,12 +169,15 @@
         <option value="$PROJECT_DIR$/top-50-matplotlib-visualizations/Correllogramv.py" />
         <option value="$PROJECT_DIR$/top-50-matplotlib-visualizations/Pairwise_Plot.py" />
         <option value="$PROJECT_DIR$/MonteCarlo/MC_PI.py" />
+        <option value="$PROJECT_DIR$/spider/网易云音乐/网易云音乐2.py" />
+        <option value="$PROJECT_DIR$/spider/网易云音乐/网易云音乐.py" />
+        <option value="$PROJECT_DIR$/spider/用Python爬取金融市场数据/信托在售爬取.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="575" />
+    <option name="y" value="51" />
     <option name="width" value="802" />
     <option name="height" value="780" />
   </component>
@@ -179,7 +209,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,12 +219,31 @@
             <path>
               <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="MonteCarlo" type="462c0819:PsiDirectoryNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+              <item name="JOB-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+              <item name="用Python爬取金融市场数据" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+              <item name="网易云音乐" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -209,9 +257,11 @@
       <recent name="C:\Users\nwgq2jchen1\PycharmProjects\excel" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\adimn\PycharmProjects\PycharmProjects\spider" />
+      <recent name="C:\Users\adimn\PycharmProjects\PycharmProjects\spider\用Python爬取金融市场数据" />
+      <recent name="C:\Users\adimn\PycharmProjects\PycharmProjects\spider\网易云音乐" />
       <recent name="C:\Users\adimn\PycharmProjects\PycharmProjects\MonteCarlo\用Python预测你的花呗可以用到什么时候" />
       <recent name="C:\Users\nwgq2jchen1\PycharmProjects\spider" />
-      <recent name="C:\Users\nwgq2jchen1\PycharmProjects\pivot_table" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -227,7 +277,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.MC_PI">
-    <configuration name="代码1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="网易云音乐" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -235,12 +285,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MonteCarlo/用Python预测你的花呗可以用到什么时候" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider/网易云音乐" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MonteCarlo/用Python预测你的花呗可以用到什么时候/代码1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider/网易云音乐/网易云音乐.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -249,7 +299,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Bubble_Plot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="网易云音乐2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -257,12 +307,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/top-50-matplotlib-visualizations" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider/网易云音乐" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/top-50-matplotlib-visualizations/Bubble_Plot.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider/网易云音乐/网易云音乐2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -293,7 +343,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Pairwise_Plot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="信托在售爬取" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -301,12 +351,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/top-50-matplotlib-visualizations" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider/用Python爬取金融市场数据" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/top-50-matplotlib-visualizations/Pairwise_Plot.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider/用Python爬取金融市场数据/信托在售爬取.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -315,7 +365,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Scatter_plot_with_linear_regression_line_of_best_fit" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="music_collection_hist" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -323,12 +373,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/top-50-matplotlib-visualizations" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider/网易云音乐" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/top-50-matplotlib-visualizations/Scatter_plot_with_linear_regression_line_of_best_fit.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider/网易云音乐/music_collection_hist.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -338,19 +388,17 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Pairwise_Plot" />
-      <item itemvalue="Python.Bubble_Plot" />
-      <item itemvalue="Python.Scatter_plot_with_linear_regression_line_of_best_fit" />
-      <item itemvalue="Python.代码1" />
       <item itemvalue="Python.MC_PI" />
+      <item itemvalue="Python.网易云音乐" />
+      <item itemvalue="Python.网易云音乐2" />
+      <item itemvalue="Python.music_collection_hist" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.music_collection_hist" />
+        <item itemvalue="Python.网易云音乐2" />
+        <item itemvalue="Python.网易云音乐" />
         <item itemvalue="Python.MC_PI" />
-        <item itemvalue="Python.代码1" />
-        <item itemvalue="Python.Scatter_plot_with_linear_regression_line_of_best_fit" />
-        <item itemvalue="Python.Pairwise_Plot" />
-        <item itemvalue="Python.Bubble_Plot" />
       </list>
     </recent_temporary>
   </component>
@@ -364,7 +412,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514948096224</updated>
-      <workItem from="1552911775137" duration="2622000" />
+      <workItem from="1552911775137" duration="4209000" />
+      <workItem from="1552920577547" duration="895000" />
+      <workItem from="1552997139027" duration="2655000" />
+      <workItem from="1553090128284" duration="2280000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1535353909755</created>
@@ -394,60 +445,46 @@
       <option name="project" value="LOCAL" />
       <updated>1552221369563</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test">
+      <created>1552919112391</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1552919112391</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2622000" />
+    <option name="totallyTimeSpent" value="10039000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22616138" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19987775" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32913387" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.47310513" visible="true" weight="0.28363228" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4941435" weight="0.181388" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4712714" weight="0.28363228" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49266502" weight="0.3295964" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32913387" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.31653544" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.52689487" side_tool="true" visible="true" weight="0.28363228" />
-      <window_info anchor="right" id="SciView" visible="true" weight="0.3294621" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5287286" side_tool="true" visible="true" weight="0.28363228" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Data View" order="3" weight="0.5534407" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3294621" />
       <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
+      <window_info anchor="right" id="SciView" order="6" visible="true" weight="0.065403424" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14568081" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32913387" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48243046" weight="0.28976378" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4941435" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.51756954" side_tool="true" visible="true" weight="0.30866143" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Python Console" order="9" weight="0.31653544" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Data View" order="4" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -503,6 +540,16 @@
           <line>30</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spider/网易云音乐/网易云音乐2.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spider/用Python爬取金融市场数据/信托在售爬取.py</url>
+          <line>147</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -512,200 +559,13 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression=" df['url']" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/excel/excel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="42" selection-start-line="42" selection-end-line="42" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/excel/excel2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="61" column="21" lean-forward="true" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aiohttp/aiohttp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/excel/configration.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Add-Christmas-Hat-master/add_hat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MSSQL/mssql_update.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/excel/test.bat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/excel/MCD.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/excel/ODM2TXT.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1106">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/weibo/analysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="31" column="52" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#19#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/excel/Excel2txt1File.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/excel/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mail/12.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mail/exe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mail/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mail/mail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1506">
-          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/notravellist-master/assets/README-8304749f.JPG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/mafen/mafen.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/qunaer/qunaer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/notravellist-master/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/notravellist-master/points.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/notravellist-master/baiduMap.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-224">
-          <caret line="38" column="29" lean-forward="true" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/notravellist-master/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="63" lean-forward="true" selection-start-column="63" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/notravellist-master/echartsMap.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/notravellist-master/hotplace.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
-          <folding>
-            <element signature="e#44#72#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/notravellist-master/exceltoechart.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/weibo/weibo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4124">
-          <caret line="14" column="3" selection-start-line="14" selection-end-line="14" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/SchweizerMesser-master/DangDangCrawler/PythonBook.csv">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="80" selection-start-line="6" selection-start-column="80" selection-end-line="6" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/SchweizerMesser-master/Pizzahut/cities.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2508" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spider/SchweizerMesser-master/Pizzahut/results.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1653" />
@@ -836,20 +696,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spider/zhilian/mongodb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#2#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/zhilian/analize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MonteCarlo/用Python预测你的花呗可以用到什么时候/代码2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#25#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MonteCarlo/用Python预测你的花呗可以用到什么时候/代码1.py">
+    <entry file="file://$PROJECT_DIR$/spider/zhilian/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+        <state>
+          <caret selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -859,6 +738,233 @@
           <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MonteCarlo/用Python预测你的花呗可以用到什么时候/代码1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/网易云音乐/playlist.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="49" lean-forward="true" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/网易云音乐/网易云音乐.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="29" column="19" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/网易云音乐/网易云音乐2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="51" column="3" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/网易云音乐/music_collection_TOP10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/网易云音乐/music_user_TOP10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/网易云音乐/music_collection_hist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/网易云音乐/music_detail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/网易云音乐/music_play_hist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/网易云音乐/music_play_TOP10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/网易云音乐/music_song_TOP10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/网易云音乐/music_tags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/用Python爬取金融市场数据/data.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/网易云音乐/music_index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/JOB-master/job.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/JOB-master/job_city_boss_heatmap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/JOB-master/job_city_lagou_heatmap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/JOB-master/lagou_JOB_mysql_table.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/JOB-master/lagou_JOB_mysql_database.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/JOB-master/job_company_type_bossTOP10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/JOB-master/BOSS_JOB_mysql_table.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/JOB-master/BOSS_JOB_mysql_database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/用Python爬取金融市场数据/信托在售爬取.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="89" column="37" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/JOB-master/job_salary_education_lagou.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/JOB-master/job_salary_education_boss.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/JOB-master/lagou_job.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
