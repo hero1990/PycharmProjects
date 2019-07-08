@@ -25,15 +25,14 @@ print(mpl.__version__)  #> 3.0.0
 print(sns.__version__)  #> 0.9.0# !pip install brewer2mpl
 
 
-# Import Dataset
-df = pd.read_csv("https://github.com/selva86/datasets/raw/master/mtcars.csv")
+# Import Data
+df = pd.read_csv("https://raw.githubusercontent.com/selva86/datasets/master/mpg_ggplot2.csv")
+df_counts = df.groupby(['hwy', 'cty']).size().reset_index(name='counts')
 
-# Plot
-plt.figure(figsize=(12,10), dpi= 80)
-sns.heatmap(df.corr(),vmin=None, vmax=None, xticklabels=df.corr().columns, yticklabels=df.corr().columns, cmap='RdYlGn', center=0, annot=True)
+# Draw Stripplot
+fig, ax = plt.subplots(figsize=(16,10), dpi= 80)
+sns.stripplot(df_counts.cty, df_counts.hwy, size=df_counts.counts*2, ax=ax)
 
 # Decorations
-plt.title('Correlogram of mtcars', fontsize=22)
-plt.xticks(fontsize=12)
-plt.yticks(fontsize=12)
+plt.title('Counts Plot - Size of circle is bigger as more points overlap', fontsize=22)
 plt.show()
