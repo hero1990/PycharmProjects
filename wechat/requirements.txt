@@ -69,7 +69,7 @@ olefile==0.44
 opencv-python==3.4.0.12
 pandas==0.21.0
 pandocfilters==1.4.2
-paramiko==2.4.0
+paramiko==2.10.1
 parso==0.1.1
 peppercorn==0.5
 pew==1.1.2
