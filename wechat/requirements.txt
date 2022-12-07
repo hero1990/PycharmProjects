@@ -9,7 +9,7 @@ bleach==2.1.2
 boost==0.1
 bootstrap-admin==0.3.7.1
 bs4==0.0.1
-certifi==2017.11.5
+certifi==2022.12.7
 cffi==1.11.5
 chardet==3.0.4
 cmake==0.9.0
